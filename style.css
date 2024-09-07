@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:#050A30;
+    color:#ffffffb2;
+    
+}
+.container 
+{
+    margin:12%;
+    width:100%;
+    max-width:700px;
+}
+.container h1
+{
+    font-weight:500px;
+    color:#7EC8E3;
+    border-bottom:4px solid;
+    padding-bottom:9px;
+        
+}
+
+.password{
+   width:100%;
+   margin-top:50px;
+   margin-bottom:30px;
+   background:#fff;
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+   padding:26px 20px;
+   border-radius:5px;
+}
+
+.password img{
+    width:30px;
+    cursor:pointer;
+}
+.password #pass{
+    border:0;
+    outline:0;
+    font-size:24px;
+    
+}
+.container img{
+    width:28px;
+    margin-right:10px;
+}
+.container button{
+    border:0;
+    outline:0;
+    background:#1aa813;
+    color:#fff;
+    font-size:22px;
+    font-weight: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:16px 26px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-top:50px;
+    margin-left:35%;
+}
+.btn btn-secondary dropdown-toggle{
+    border:0;
+    outline:0;
+    background:#1aa813;
+    color:#fff;
+    font-size:22px;
+    font-weight: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding:16px 26px;
+    border-radius:6px;
+    cursor:pointer;
+    margin-top:50px;
+    
+}
